@@ -1,0 +1,29 @@
+
+#nav li a:hover {
+	color: #6C0;
+	}
+
+#head h2, #head .sitetag {
+	color: #6C0;
+	}
+
+#right li a:hover, .right2 li a:hover, .sidehead a:hover {
+	color: #6C0;
+	}
+	
+h2, .date {
+	color: #6C0;
+	}
+	
+#content a, #content2 a, #foot a, .blogit-listmore a {
+	color: #6C0;
+	border-bottom: 1px dotted #6C0;
+	}
+	
+img.content, a img.content{
+	background-color: #6C0;
+	}
+	
+thead th {
+  color: #6C0;
+}
