@@ -7,4 +7,5 @@ host=127.0.0.1
 name=Site.XLPage-choice
 rev=3
 targets=
-text=### GlossyHue Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => ''%0a
+text=### Choice Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on {*$LastModified}' => ''%0a
+

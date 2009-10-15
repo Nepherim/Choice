@@ -9,7 +9,7 @@
  */
 global $FmtPV;
 $FmtPV['$SkinName'] = '"Choice"';
-$FmtPV['$SkinVersion'] = '"1.0.0"';
+$FmtPV['$SkinVersion'] = '"1.0.2"';
 
 global $PageLogoUrl, $PageLogoUrlHeight, $PageLogoUrlWidth, $HTMLStylesFmt ,$SkinTheme;
 if (!empty($PageLogoUrl)) {
@@ -38,12 +38,9 @@ $FmtPV['$SearchBar'] = "\$GLOBALS['TmplDisplay']['PageSearchFmt']";
 Markup('nosearch', 'directives',  '/\\(:nosearch:\\)/ei', "SetTmplDisplay('PageSearchFmt',0)");
 $FmtPV['$TitleGroup'] = "\$GLOBALS['TmplDisplay']['PageTitleGroupFmt']";
 Markup('notitlegroup', 'directives',  '/\\(:notitlegroup:\\)/ei', "SetTmplDisplay('PageTitleGroupFmt',0)");
+Markup('notitle', 'directives',  '/\\(:notitle:\\)/ei', "SetTmplDisplay('PageTitleFmt',0); SetTmplDisplay('PageTitleGroupFmt',0)");
 Markup('fieldset', 'inline', '/\\(:fieldset:\\)/i', "<fieldset>");
 Markup('fieldsetend', 'inline', '/\\(:fieldsetend:\\)/i', "</fieldset>");
-
-# Define a link stye for new page links
-global $LinkPageCreateFmt;
-SDV($LinkPageCreateFmt, "<a class='createlinktext' href='\$PageUrl?action=edit'>\$LinkText</a>");
 
 # Override pmwiki styles otherwise they will override styles declared in css
 global $HTMLStylesFmt;

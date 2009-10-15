@@ -135,7 +135,6 @@ body.dark #right li a:hover, body.dark .right2 li a:hover, body.dark .sidehead a
 body.dark #content {
 	border-top: 5px solid #191919;
 	}
-h2 { clear: both; }
 h2, #content h2.page-head a {
 	font: 400 1.4em arial,sans-serif;
 	color: #444;
@@ -398,25 +397,27 @@ body.dark #foot {
 
 /* -- PmWiki */
 #content a.pagegroup, #content h1.page-head a, #content h2.page-head a {border: none;}
-#nav a.createlink { display: none; }
 #foot p {float: left;}
 #foot p.credits {float: right;}
-.indent { margin-left:40px; }
-.outdent { margin-left:40px; text-indent:-40px; }
 #s { width: 50%; }
-fieldset { border: none; }
 #comment-text { margin-top: 25px; }
-#wikitext .escaped { overflow: auto; height: auto; width: 90%; margin: 1.5em auto; padding: .15em; }
-#wikitext .quickref p, #wikitext .quickref .outdent, #wikitext .quickref div, #wikitext .quickref strong {font-size:1em; margin:0; text-align:left; text-indent:0; line-height: 2em}
-#wikitext hr {border:2px solid #ECECEC; margin:2em 0}
-#wikiedit, #wikiedit form input[type=submit] { margin-top: 25px; }
 #wikiedit #text { margin-bottom: 25px; }
 #wikiedit form a { border: none; }
-.wikimessage {color: red; font-weight: bold; font-size: 110%; }
-.difftype, .diffrestore { clear: none !important; }
 .sidehead a { text-decoration: none; font-size: 1em !important; }
 #right .pageactions li { padding: 1px 0 0 20px; }
+
+#nav a.createlink { display: none; }
 a.createlink { padding: 0 !important; position:relative; top:-0.5em; font-size:.8em !important; }
+#wikitext hr {border:2px solid #ECECEC; margin:2em 0}
+#wikitext .escaped { overflow: auto; height: auto; width: 90%; margin: 1.5em auto; padding: .15em; }
+#wikitext .quickref p, #wikitext .quickref .outdent, #wikitext .quickref div, #wikitext .quickref strong {font-size:1em; margin:0; text-align:left; text-indent:0; line-height: 2em}
+#wikiedit, #wikiedit form input[type=submit] { margin-top: 25px; }
+
+.indent { margin-left:40px; }
+.outdent { margin-left:40px; text-indent:-40px; }
+fieldset { margin: 0; padding: 0; border-style: none; }
+.wikimessage {color: red; font-weight: bold; font-size: 110%; }
+.difftype, .diffrestore { clear: none !important; }
 .quickref p { margin:0; padding:0;}
 .quickref br { display: none; }
 
@@ -432,8 +433,9 @@ a.createlink { padding: 0 !important; position:relative; top:-0.5em; font-size:.
 li.comment { margin-top: 10px; }
 li.comment .blogit-comment-header { color:#999; }
 #head .sitetitle a { display: block; }
-.entry { clear: both; }
-.page-navigation { margin: 20px 0; padding: 20px 0 40px; font-weight: bold; }
-.blogit-previous-entries a { float: left; padding-left: 18px; background: url(mini-nav-left.gif) no-repeat left center; }
-.blogit-next-entries a { float: right;	padding-right: 18px;	background: url(mini-nav-right.gif) no-repeat right center; }
+.blogit-page-navigation { clear: both; margin: 20px 0; padding: 20px 0 40px; font-weight: bold; }
+.blogit-newer-entries a { float: left; padding-left: 18px; background: url(mini-nav-left.gif) no-repeat left center; }
+.blogit-older-entries a { float: right;	padding-right: 18px;	background: url(mini-nav-right.gif) no-repeat right center; }
 #commentblock { padding-top: 60px; }
+.entry, .blogit-post-summary { clear: both; }
+.entry { margin-bottom: 60px; }
