@@ -429,6 +429,8 @@ fieldset { margin: 0; padding: 0; border-style: none; }
 .entry-content { clear: left; }
 .entrytags, .comment-count, .editlink { float: right; text-transform: lowercase; }
 .editlink { margin-left: 20px; }
+.blogit-submit-row { padding-top: 10px; }
+.blogit-submit-row img { vertical-align: bottom; padding-bottom: 1px; }
 .blogit-listmore { margin-top: -20px; margin-bottom: 20px; }
 li.comment { margin-top: 10px; }
 li.comment .blogit-comment-header { color:#999; }

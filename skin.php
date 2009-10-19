@@ -9,7 +9,7 @@
  */
 global $FmtPV;
 $FmtPV['$SkinName'] = '"Choice"';
-$FmtPV['$SkinVersion'] = '"1.0.2"';
+$FmtPV['$SkinVersion'] = '"1.0.3"';
 
 global $PageLogoUrl, $PageLogoUrlHeight, $PageLogoUrlWidth, $HTMLStylesFmt ,$SkinTheme;
 if (!empty($PageLogoUrl)) {
