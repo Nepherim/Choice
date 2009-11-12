@@ -147,6 +147,7 @@ body.dark h2, body.dark #content h2.page-head a {
 	}
 h3 {
 	font: 400 1.2em 'trebuchet ms',arial,sans-serif;
+	color: #999;
 	margin-top: -0.4em;
 	padding-top: 0px;
 	letter-spacing: -1px;
@@ -332,7 +333,7 @@ form label{
 
 form input.inputbox, form input.text, form textarea, input[type=text]{
 	border:1px #E0E0E0 solid;
-	color:#666;
+	color:#777;
 	padding:4px 5px;
 	font:12px Arial,san-serif;
 	background-color: #F3F3F3;
@@ -354,7 +355,7 @@ body.dark form input.text:hover, body.dark form textarea:hover, body.dark form i
 
 form input.text:focus, form textarea:focus, form input[type=text]:focus{
 	border:1px #CCC solid;
-	color:#666;
+	color:#CCC;
 	}
 body.dark form input.text:focus, body.dark form textarea:focus, body.dark input[type=text]:focus{
 	border:1px #000 solid;
@@ -373,7 +374,7 @@ body.dark form input.button, body.dark form input.inputbutton, body.dark form in
 * html form input.text,
 * html form textarea{
 	border-color: #CCC;
-	color:#333;
+	color:#CCC;
 	}
 * html body.dark form input.text,
 * html body.dark form textarea{
@@ -424,8 +425,8 @@ fieldset { margin: 0; padding: 0; border-style: none; }
 /* -- BlogIt */
 .metadata { margin-top: -.3em; height: 2.5em; font-size: .8em; }
 .date { float: left; margin-top: -.3em; text-transform: uppercase; font: 400 1.7em 'trebuchet ms',arial,sans-serif; padding-top: 0px; letter-spacing: -1px; }
-.author { float: left; margin-left: 6px; }
-.author a { margin-top: 1px; color: #666; }
+.author { text-transform: lowercase; float: left; margin-left: 6px; }
+.author a { text-transform: lowercase; margin-top: 1px; color: #666; }
 .entry-content { clear: left; }
 .entrytags, .comment-count, .editlink { float: right; text-transform: lowercase; }
 .editlink { margin-left: 20px; }
