@@ -333,7 +333,7 @@ form label{
 
 form input.inputbox, form input.text, form textarea, input[type=text]{
 	border:1px #E0E0E0 solid;
-	color:#777;
+	color:#aaa;
 	padding:4px 5px;
 	font:12px Arial,san-serif;
 	background-color: #F3F3F3;
@@ -355,7 +355,7 @@ body.dark form input.text:hover, body.dark form textarea:hover, body.dark form i
 
 form input.text:focus, form textarea:focus, form input[type=text]:focus{
 	border:1px #CCC solid;
-	color:#CCC;
+	color:#666;
 	}
 body.dark form input.text:focus, body.dark form textarea:focus, body.dark input[type=text]:focus{
 	border:1px #000 solid;
@@ -374,7 +374,7 @@ body.dark form input.button, body.dark form input.inputbutton, body.dark form in
 * html form input.text,
 * html form textarea{
 	border-color: #CCC;
-	color:#CCC;
+	color:#aaa;
 	}
 * html body.dark form input.text,
 * html body.dark form textarea{
