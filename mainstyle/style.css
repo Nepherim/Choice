@@ -333,7 +333,7 @@ form label{
 
 form input.inputbox, form input.text, form textarea, input[type=text]{
 	border:1px #E0E0E0 solid;
-	color:#aaa;
+	color:#ccc;
 	padding:4px 5px;
 	font:12px Arial,san-serif;
 	background-color: #F3F3F3;
