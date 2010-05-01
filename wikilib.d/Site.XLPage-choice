@@ -1,11 +1,15 @@
-version=pmwiki-2.2.1 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+version=pmwiki-2.2.15 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)
+author=daveg
 charset=ISO-8859-1
 csum=
 ctime=1254106278
 host=127.0.0.1
 name=Site.XLPage-choice
-rev=3
+rev=4
 targets=
-text=### Choice Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on {*$LastModified}' => ''%0a
-
+text=### Choice Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on ' => ''%0a
+time=1272755546
+author:1272755546=daveg
+diff:1272755546:1272755546:=6c6%0a%3c   'Page last modified on ' => ''%0a---%0a>   'Page last modified on {*$LastModified}' => ''%0a
+host:1272755546=127.0.0.1
