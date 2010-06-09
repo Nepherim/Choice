@@ -8,8 +8,4 @@ host=127.0.0.1
 name=Site.XLPage-choice
 rev=4
 targets=
-text=### Choice Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on ' => ''%0a
-time=1272755546
-author:1272755546=daveg
-diff:1272755546:1272755546:=6c6%0a%3c   'Page last modified on ' => ''%0a---%0a>   'Page last modified on {*$LastModified}' => ''%0a
-host:1272755546=127.0.0.1
+text=### Choice Template%0a  'Search' => '',%0a  'Actions' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on' => ''%0a
