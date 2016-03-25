@@ -74,7 +74,7 @@ body.dark #head h1, body.dark #head h1 a {
 	}
 #head h2, #head .sitetag {
 	font: 400 2.5em 'trebuchet ms',arial,sans-serif;
-	margin-top: -0.7em;
+	margin-top: -0.3em;
 	padding: 0;
 	margin-bottom: 40px;
 	letter-spacing: -0.1em;
@@ -140,6 +140,7 @@ h2, #content h2.page-head a {
 	color: #444;
 	letter-spacing: -0.1em;
 	margin-bottom: 0;
+	margin-top: .4em;
 	text-transform: uppercase;
 	}
 body.dark h2, body.dark #content h2.page-head a {
@@ -148,7 +149,7 @@ body.dark h2, body.dark #content h2.page-head a {
 h3 {
 	font: 400 1.2em 'trebuchet ms',arial,sans-serif;
 	color: #999;
-	margin-top: -0.4em;
+	margin-top: 1.4em;
 	padding-top: 0px;
 	letter-spacing: -1px;
 	}
@@ -442,3 +443,15 @@ li.comment .blogit-comment-header { color:#999; }
 #commentblock { padding-top: 60px; }
 .entry, .blogit-post-summary { clear: both; }
 .entry { margin-bottom: 60px; }
+.blogit-post { margin-top: 12px !important; }
+.blogit-admin-links li{
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	background-image: none !important;
+}
+.list-admin li a[href*="bi_mode=ajax"]{
+	padding-left: 0px !important;
+}
+.list-admin li a[href*="bi_mode=ajax"]:hover{
+	background: none !important;
+}
